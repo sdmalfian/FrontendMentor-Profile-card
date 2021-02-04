@@ -13,7 +13,7 @@ body {
   background-position: right 51vw bottom 35vh, left 48vw top 50vh;
 }
 
-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +27,8 @@ container {
   width: 350px;
   background-color: #ffff;
   border-radius: 15px;
+  -webkit-box-shadow: 8px 11px 47px -13px rgba(0,0,0,0.5); 
+  box-shadow: 8px 11px 47px -13px rgba(0,0,0,0.5);
 }
 
 #pattern-card {
