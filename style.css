@@ -33,6 +33,7 @@ body {
 
 #pattern-card {
   border-radius: 15px 15px 0 0;
+  width: 100%;
 }
 
 #profile {
@@ -93,4 +94,11 @@ body {
 .attribution {
   color: #ffff;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+  /* For mobile phones: */
+  .card {
+    max-width: 87%;
+  }
 }
